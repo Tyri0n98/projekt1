@@ -2,12 +2,12 @@ package agh.cs.judgments;
 
 public class Regulation {
     private String journalTitle;
-    private int journalNo;
-    private int journalYear;
-    private int journalEntry;
+    private String journalNo;
+    private String journalYear;
+    private String journalEntry;
     private String text;
 
-    public Regulation(String title, int no, int year, int entry, String text){
+    public Regulation(String title, String no, String year, String entry, String text){
         this.journalTitle = title;
         this.journalNo = no;
         this.journalYear = year;

@@ -5,6 +5,12 @@ import java.util.List;
 
 public class Judge {
     private String name;
-    private String function;
+    //private String function;
     private LinkedList<JudgeRole> specialRoles;
+
+    public Judge(String name, /*String function,*/ LinkedList<JudgeRole> specialRoles){
+        this.name = name;
+        //this.function = function;
+        this.specialRoles = specialRoles;
+    }
 }
