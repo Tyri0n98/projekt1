@@ -17,6 +17,8 @@ public class Main {
             Path dir = Paths.get("/home/tyri0n/projekt/jsons/");
             Parser parser = new Parser();
             parser.parseDir(dir);
+            TaskRubrum rubrum = new TaskRubrum();
+            rubrum.execute(parser, "III AUa 846/12");
             /*Object obj = parser.parse(new FileReader("/home/tyri0n/projekt/jsons/judgments-348.json"));
             JSONObject json = (JSONObject) obj;
             JSONArray items = (JSONArray) json.get("items");

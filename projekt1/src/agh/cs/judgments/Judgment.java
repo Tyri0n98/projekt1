@@ -18,4 +18,28 @@ public class Judgment {
         this.referencedRegulations = referencedRegulations;
         this.date = date;
     }
+
+    public String getCaseNumber(){
+        return this.caseNumber;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public CourtType getCourtType() {
+        return courtType;
+    }
+
+    public LinkedList<Judge> getJudges() {
+        return judges;
+    }
+
+    public LinkedList<Regulation> getReferencedRegulations() {
+        return referencedRegulations;
+    }
+
+    public Date getDate() {
+        return date;
+    }
 }

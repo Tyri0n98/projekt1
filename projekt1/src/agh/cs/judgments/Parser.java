@@ -16,6 +16,10 @@ import java.util.LinkedList;
 public class Parser {
     private HashMap<String, Judgment> judgments;
 
+    public HashMap<String, Judgment> getJudgments(){
+        return judgments;
+    }
+
     public Parser(){
         this.judgments = new HashMap<>();
     }
@@ -60,6 +64,4 @@ public class Parser {
             this.judgments.put(caseNumber, new Judgment(item.get("id").toString(), caseNumber, ToEnum.toCourtType(item.get("courtType").toString()), judges, referencedRegulations, new Date(item.get("judgmentDate").toString())));
         }
     }
-
-
 }

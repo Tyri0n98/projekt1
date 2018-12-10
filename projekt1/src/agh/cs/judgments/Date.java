@@ -20,4 +20,7 @@ public class Date {
     public String getDay() {
         return day;
     }
+    public String toString(){
+        return this.year + "-" + this.month + "-" + this.day;
+    }
 }

@@ -13,4 +13,12 @@ public class Judge {
         //this.function = function;
         this.specialRoles = specialRoles;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public LinkedList<JudgeRole> getSpecialRoles() {
+        return specialRoles;
+    }
 }
