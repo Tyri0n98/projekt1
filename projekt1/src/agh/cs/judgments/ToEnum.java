@@ -30,4 +30,14 @@ public class ToEnum {
             default: throw new IllegalArgumentException(type + " is not legal value");
         }
     }
+
+    public static TaskName toTask(String task){
+        switch (task){
+            case "rubrum": return TaskName.RUBRUM;
+            case "help": return TaskName.HELP;
+            case "content": return TaskName.CONTENT;
+            case "": return TaskName.EMPTY;
+            default: return TaskName.ERROR;
+        }
+    }
 }

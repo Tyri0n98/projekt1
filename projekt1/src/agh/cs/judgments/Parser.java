@@ -61,7 +61,7 @@ public class Parser {
                 referencedRegulations.add(new Regulation(regulation.get("journalTitle").toString(), regulation.get("journalNo").toString(), regulation.get("journalYear").toString(), regulation.get("journalEntry").toString(), regulation.get("text").toString()));
             }
 
-            this.judgments.put(caseNumber, new Judgment(item.get("id").toString(), caseNumber, ToEnum.toCourtType(item.get("courtType").toString()), judges, referencedRegulations, new Date(item.get("judgmentDate").toString())));
+            this.judgments.put(caseNumber, new Judgment(item.get("id").toString(), caseNumber, item.get("textContent").toString(),ToEnum.toCourtType(item.get("courtType").toString()), judges, referencedRegulations, new Date(item.get("judgmentDate").toString())));
         }
     }
 }
