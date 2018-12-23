@@ -36,6 +36,7 @@ public class ToEnum {
             case "rubrum": return TaskName.RUBRUM;
             case "help": return TaskName.HELP;
             case "content": return TaskName.CONTENT;
+            case "quit": return TaskName.QUIT;
             case "": return TaskName.EMPTY;
             default: return TaskName.ERROR;
         }

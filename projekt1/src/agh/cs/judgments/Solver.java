@@ -18,6 +18,18 @@ public class Solver {
                 taskRubrum.execute(judgments, arg);
                 }
                 if (task.getArgs().isEmpty()) System.out.println("Nie podano argumentów");
+                return;
+            }
+            case CONTENT:{
+                for(String arg: task.getArgs()){
+                    TaskContent taskContent = new TaskContent();
+                    taskContent.execute(judgments, arg);
+                }
+                if(task.getArgs().isEmpty()) System.out.println("Nie podano argumentów");
+                return;
+            }
+            case ERROR:{
+                System.out.println("Polecenie " + task.getInput() + " nie istnieje");
             }
             default: return;
         }

@@ -1,5 +1,5 @@
 package agh.cs.judgments;
 
 public enum TaskName {
-    EMPTY, ERROR, HELP, RUBRUM, CONTENT
+    EMPTY, ERROR,QUIT, HELP, RUBRUM, CONTENT
 }

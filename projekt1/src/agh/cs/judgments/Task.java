@@ -33,10 +33,14 @@ public class Task {
     }
 
     public TaskName getTaskName() {
-        return taskName;
+        return this.taskName;
     }
 
     public LinkedList<String> getArgs() {
-        return args;
+        return this.args;
+    }
+
+    public String getInput(){
+        return this.input;
     }
 }
