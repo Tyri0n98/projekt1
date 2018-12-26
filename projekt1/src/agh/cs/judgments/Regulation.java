@@ -14,4 +14,28 @@ public class Regulation {
         this.journalEntry = entry;
         this.text = text;
     }
+
+    public boolean equals(Regulation reg){
+        return this.journalTitle.equals(reg.journalTitle);
+    }
+
+    public String getJournalTitle() {
+        return journalTitle;
+    }
+
+    public String getJournalNo() {
+        return journalNo;
+    }
+
+    public String getJournalYear() {
+        return journalYear;
+    }
+
+    public String getJournalEntry() {
+        return journalEntry;
+    }
+
+    public String getText() {
+        return text;
+    }
 }

@@ -13,6 +13,10 @@ public class Judge {
         this.specialRoles = specialRoles;
     }
 
+    public boolean equals(Judge judge){
+        return this.name.equals(judge.name);
+    }
+
     public String getName() {
         return name;
     }
