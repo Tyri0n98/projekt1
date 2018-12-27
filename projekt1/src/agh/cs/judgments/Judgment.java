@@ -3,7 +3,6 @@ package agh.cs.judgments;
 import java.util.LinkedList;
 
 public class Judgment {
-    private String id;
     private String caseNumber;
     private String textContent;
     private CourtType courtType;
@@ -11,8 +10,7 @@ public class Judgment {
     private LinkedList<Regulation> referencedRegulations;
     private Date date;
 
-    public Judgment(String id, String caseNumber, String textContent, CourtType courtType, LinkedList<Judge> judges, LinkedList<Regulation> referencedRegulations, Date date){
-        this.id = id;
+    public Judgment(String caseNumber, String textContent, CourtType courtType, LinkedList<Judge> judges, LinkedList<Regulation> referencedRegulations, Date date){
         this.caseNumber = caseNumber;
         this.textContent = textContent;
         this.courtType = courtType;
@@ -27,10 +25,6 @@ public class Judgment {
 
     public String getTextContent() {
         return textContent;
-    }
-
-    public String getId() {
-        return id;
     }
 
     public CourtType getCourtType() {

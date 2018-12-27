@@ -7,6 +7,8 @@ public class ToEnum {
             case "PRESIDING_JUDGE": return JudgeRole.PRESIDING_JUDGE;
             case "REPORTING_JUDGE": return JudgeRole.REPORTING_JUDGE;
             case "REASONS_FOR_JUDGMENT_AUTHOR": return JudgeRole.REASONS_FOR_JUDGMENT_AUTHOR;
+            case "sprawozdawca": return JudgeRole.REPORTING_JUDGE;
+            case "przewodniczący": return JudgeRole.PRESIDING_JUDGE;
             default: throw new IllegalArgumentException(role + " is not legal value");
         }
     }
@@ -27,7 +29,11 @@ public class ToEnum {
             case "SUPREME": return CourtType.SUPREME;
             case "CONSTITUTIONAL_TRIBUNAL": return CourtType.CONSTITUTIONAL_TRIBUNAL;
             case "NATIONAL_APPEAL_CHAMBER": return CourtType.NATIONAL_APPEAL_CHAMBER;
-            default: throw new IllegalArgumentException(type + " is not legal value");
+            default: {
+                if(type.contains("Wojewódzki")) return CourtType.VOIVODESHIP_ADMINISTRATIVE;
+                if(type.contains("Naczelny")) return CourtType.SUPREME_ADMINISTRATIVE;
+                throw new IllegalArgumentException(type + " is not legal value");
+            }
         }
     }
 

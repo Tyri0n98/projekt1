@@ -15,8 +15,12 @@ public class Regulation {
         this.text = text;
     }
 
-    public boolean equals(Regulation reg){
-        return this.journalTitle.equals(reg.journalTitle);
+    public Regulation(String title){
+        this.journalTitle = title;
+        this.journalNo = "";
+        this.journalYear = "";
+        this.journalEntry = "";
+        this.text = "";
     }
 
     public String getJournalTitle() {

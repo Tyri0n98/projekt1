@@ -5,8 +5,8 @@ public enum JudgeRole {
 
     public String toString(){
         switch (this){
-            case PRESIDING_JUDGE: return "Presiding judge";
-            case REPORTING_JUDGE: return "Reporting judge";
+            case PRESIDING_JUDGE: return "Przewodniczący";
+            case REPORTING_JUDGE: return "Sprawozdawca";
             case REASONS_FOR_JUDGMENT_AUTHOR: return "Reasons for judgment author";
             default: return "";
         }

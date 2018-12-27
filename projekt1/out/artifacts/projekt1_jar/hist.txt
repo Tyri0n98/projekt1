@@ -1,0 +1,164 @@
+months
+Styczeń: 0
+Luty: 0
+Marzec: 100
+Kwiecień: 31
+Maj: 68
+Czerwiec: 197
+Lipiec: 198
+Sierpień: 0
+Wrzesień: 97
+Październik: 0
+Listopad: 197
+Grudzień: 97
+quit
+judges
+Wojciech Katner: 41
+Bogumiła Ustjanicz: 20
+Piotr Tuleja: 18
+Anna Owczarek: 14
+Zbigniew Myszka: 14
+Marta Romańska: 14
+Andrzej Rzepliński: 14
+Józef Frąckowiak: 13
+Aurelia Pietrzak: 13
+Bogusław Cudowski: 12
+judges
+Wojciech Katner: 41
+Bogumiła Ustjanicz: 20
+Piotr Tuleja: 18
+Anna Owczarek: 14
+Zbigniew Myszka: 14
+Marta Romańska: 14
+Andrzej Rzepliński: 14
+Józef Frąckowiak: 13
+Aurelia Pietrzak: 13
+Bogusław Cudowski: 12
+jury
+0: 85
+1: 436
+2: 10
+3: 443
+5: 7
+7: 2
+13: 1
+15: 1
+quit
+
+quit
+quit
+quit
+quit
+quit
+quit
+
+
+
+
+
+
+
+
+
+quit
+quit
+quit
+quit
+quit
+quit
+quit
+quti
+Polecenie quti nie istnieje
+quit
+quit
+quit
+quit
+quit
+quit
+quit
+quti
+Polecenie quti nie istnieje
+quit
+quit
+quit
+quit
+help
+Argumenty do poleceń podaje się w cudzysłowach i oddziela spacjami
+rubrum - wyświetlenie metryki jednego lub wielu orzeczeń na podstawie sygnatury 
+content - wyświetlenie uzasadnienia jednego lub wielu orzeczeń na podstawie sygnatury
+judge - wyświetla liczbę orzeczeń dla wybranego sędziego
+judges - wyświetla 10 sędziów, którzy wydali najwięcej orzeczeń
+months - wyświetla liczbę orzeczeń wydanych w poszczególnych miesiącach
+courts - wyświetla liczbę orzeczeń ze względu na typ sądu
+regulations - wyświetla 10 najczęściej przywoływanych ustaw
+jury - wyświetla lcizbę spraw przypadającą na określoną liczbę sędziów
+ quit
+quit
+quit
+quit
+quit
+quit
+help
+Argumenty do poleceń podaje się w cudzysłowach i oddziela spacjami
+rubrum - wyświetlenie metryki jednego lub wielu orzeczeń na podstawie sygnatury 
+content - wyświetlenie uzasadnienia jednego lub wielu orzeczeń na podstawie sygnatury
+judge - wyświetla liczbę orzeczeń dla wybranego sędziego
+judges - wyświetla 10 sędziów, którzy wydali najwięcej orzeczeń
+months - wyświetla liczbę orzeczeń wydanych w poszczególnych miesiącach
+courts - wyświetla liczbę orzeczeń ze względu na typ sądu
+regulations - wyświetla 10 najczęściej przywoływanych ustaw
+jury - wyświetla lcizbę spraw przypadającą na określoną liczbę sędziów
+ judges
+Wojciech Katner: 41
+Bogumiła Ustjanicz: 20
+Piotr Tuleja: 18
+Janina Kosowska: 15
+Barbara Mleczko-Jabłońska: 14
+Jolanta Ewa Wojtyna: 14
+Anna Owczarek: 14
+Marta Romańska: 14
+Andrzej Rzepliński: 14
+Zbigniew Myszka: 14
+jury
+0: 93
+1: 751
+2: 12
+3: 1096
+4: 19
+5: 8
+6: 2
+7: 2
+13: 1
+15: 1
+courts
+Wojewódzki sąd administracyjny: 938
+Sąd Powszechny: 691
+Krajowa Izba Odwoławcza: 129
+Sąd Najwyższy: 118
+Trybunał Konstytucyjny: 47
+Naczelny sąd administracyjny: 62
+regulations
+Ustawa z dnia 17 listopada 1964 r. - Kodeks postępowania cywilnego  628
+Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny  398
+Ustawa z dnia 30 sierpnia 2002 r. Prawo o postępowaniu przed sądami administracyjnymi.  193
+Konstytucja Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r.  136
+Ustawa z dnia 6 czerwca 1997 r. - Kodeks karny  135
+Ustawa z dnia 6 czerwca 1997 r. - Kodeks postępowania karnego  131
+Rozporządzenie Prezesa Rady Ministrów z dnia 15 marca 2010 r. w sprawie wysokości i sposobu pobierania wpisu od odwołania oraz rodzajów kosztów w postępowaniu odwoławczym i sposobu ich rozliczania  100
+Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiej z dnia 8 czerwca 2010 r. w sprawie ogłoszenia jednolitego tekstu ustawy - Prawo zamówień publicznych  90
+Rozporządzenie Ministra Sprawiedliwości z dnia 28 września 2002 r. w sprawie opłat za czynności adwokackie oraz ponoszenia przez Skarb Państwa kosztów nieopłaconej pomocy prawnej udzielonej z urzędu  87
+Ustawa z dnia 17 grudnia 1998 r. o emeryturach i rentach z Funduszu Ubezpieczeń Społecznych  82
+months
+Styczeń: 42
+Luty: 74
+Marzec: 175
+Kwiecień: 123
+Maj: 175
+Czerwiec: 290
+Lipiec: 270
+Sierpień: 43
+Wrzesień: 190
+Październik: 102
+Listopad: 299
+Grudzień: 202
+quit
