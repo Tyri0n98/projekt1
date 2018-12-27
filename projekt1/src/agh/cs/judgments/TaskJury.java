@@ -18,7 +18,6 @@ public class TaskJury {
     public String execute(){
         for(Judgment judgment: judgments.values()){
             int judgesNo = judgment.getJudges().size();
-            if(judgesNo == 15) System.out.println(judgment.getCaseNumber());
             if(judgesQuantity.containsKey(judgesNo))
                 judgesQuantity.replace(judgesNo, judgesQuantity.get(judgesNo), judgesQuantity.get(judgesNo) + 1);
             else

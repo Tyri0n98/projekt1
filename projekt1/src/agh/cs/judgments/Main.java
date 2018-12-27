@@ -6,23 +6,23 @@ import org.jline.terminal.Terminal;
 import org.jline.terminal.TerminalBuilder;
 import org.json.simple.parser.ParseException;
 
-import java.io.File;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args){
-        boolean fileArgument = false;
-        if(args.length>0) fileArgument = true;
-        String input= "";
+        OutputFile file = new OutputFile();
+        try {
+            if (args.length > 0) {
+                file.setPath(Paths.get(args[0]));
+            }
+        }catch (IllegalAccessException e){
+            System.out.println(e.getMessage());
+        }
+        String input = "";
         do {
             try {
-                PrintStream printStream = null;
-                if(fileArgument){
-                   printStream = new PrintStream(args[0]);
-                }
                 Terminal terminal = TerminalBuilder.builder().system(true).build();
                 LineReader lineReader = LineReaderBuilder.builder().terminal(terminal).build();
                 input = lineReader.readLine("Podaj ścieżkę: ");
@@ -35,10 +35,8 @@ public class Main {
                     Task task = new Task(input);
                     String output = solver.solve(task);
                     System.out.println(output);
-                    if(fileArgument){
-                        printStream.println(input);
-                        printStream.println(output);
-                    }
+                    file.write(input + "\n");
+                    file.write(output);
                 }
             } catch (ParseException e) {
                 e.printStackTrace();
